@@ -1,7 +1,7 @@
 {
   "name": "@fnko/config",
   "version": "0.1.0",
-  "description": "Opinionated Vite+ configs.",
+  "description": "A sensible, opinionated Oxlint config for modern JavaScript and TypeScript projects.",
   "homepage": "https://github.com/feenko/config#readme",
   "bugs": {
     "url": "https://github.com/feenko/config/issues"
