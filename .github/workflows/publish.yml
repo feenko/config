@@ -1,0 +1,28 @@
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: voidzero-dev/setup-vp@v1
+        with:
+          cache: true
+      - run: vp install --frozen-lockfile
+      - run: vp check
+      - uses: changesets/action@v2
+        with:
+          publish-script: vp pack && vp exec changeset publish
+          commit-message: "Update package versions"
+          pr-title: "Update package versions"
