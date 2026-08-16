@@ -2,6 +2,9 @@ import { core, strict, typed, viteplus } from "./src/oxlint/index.ts";
 import { defineConfig } from "vite-plus";
 
 export default defineConfig({
+  fmt: {
+    ignorePatterns: ["CHANGELOG.md"],
+  },
   lint: {
     extends: [core, strict, typed, viteplus],
     overrides: [
