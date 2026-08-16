@@ -5,7 +5,8 @@
     "@changesets/changelog-github",
     {
       "repo": "feenko/config",
-      "disableThanks": true
+      "disableThanks": true,
+      "template": "\n- {pull} {summary}"
     }
   ]
 }
