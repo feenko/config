@@ -1,9 +1,9 @@
 # @fnko/config
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/npm/@fnko/config.svg?variant=secondary&amp;mode=dark"><img alt="npm Version" src="https://www.shieldcn.dev/npm/@fnko/config.svg?variant=secondary&amp;mode=light"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/npm/dm/@fnko/config.svg?variant=secondary&amp;mode=dark"><img alt="npm Monthly Downloads" src="https://www.shieldcn.dev/npm/dm/@fnko/config.svg?variant=secondary&amp;mode=light"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/feenko/config.svg?variant=secondary&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/feenko/config.svg?variant=secondary&amp;mode=light"></picture>
-![toolchain Vite+](https://shieldcn.dev/badge/toolchain-Vite%2B.svg?variant=branded&logo=vite)
+<a href="https://npmx.dev/package/@fnko/config"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/npm/@fnko/config.svg?variant=secondary&amp;mode=dark"><img alt="npm Version" src="https://www.shieldcn.dev/npm/@fnko/config.svg?variant=secondary&amp;mode=light"></picture></a>
+<a href="https://npmx.dev/package/@fnko/config"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/npm/dm/@fnko/config.svg?variant=secondary&amp;mode=dark"><img alt="npm Monthly Downloads" src="https://www.shieldcn.dev/npm/dm/@fnko/config.svg?variant=secondary&amp;mode=light"></picture></a>
+<a href="./LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/feenko/config.svg?variant=secondary&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/feenko/config.svg?variant=secondary&amp;mode=light"></picture></a>
+<a href="https://viteplus.dev"><img alt="toolchain Vite+" src="https://shieldcn.dev/badge/toolchain-Vite%2B.svg?variant=branded&logo=vite"></a>
 
 A sensible, opinionated [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) config for modern JavaScript and TypeScript projects.
 
