@@ -23,6 +23,6 @@ jobs:
       - run: vp check
       - uses: changesets/action@v2
         with:
-          publish-script: vp pack && vp exec changeset publish
+          publish-script: vp exec changeset publish
           commit-message: "Update package versions"
           pr-title: "Update package versions"
