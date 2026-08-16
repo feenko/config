@@ -4,6 +4,7 @@ catalog:
 
 overrides:
   vite: "catalog:"
+  "@changesets/git": 3.0.4
 
 peerDependencyRules:
   allowAny:
