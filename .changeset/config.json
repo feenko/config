@@ -4,7 +4,8 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "feenko/config"
+      "repo": "feenko/config",
+      "disableThanks": true
     }
   ]
 }
