@@ -9,7 +9,7 @@ A sensible, opinionated [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) co
 
 ## Installation
 
-Install ['`@fnko/config`'](https://npmx.dev/package/@fnko/config) as a dev dependency:
+Install [`@fnko/config`](https://npmx.dev/package/@fnko/config) as a dev dependency:
 
 ```bash
 $ npm add -D @fnko/config
@@ -47,20 +47,21 @@ export default defineConfig({
 
 ## Rulesets
 
-| Ruleset                                | Description                                                                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [`core`](./src/oxlint/core.ts)         | General project rules applicable for most codebases.                                                            |
-| [`strict`](./src/oxlint/strict.ts)     | Stricter rules that might not fit all codebases. Some rules may need to be configured to suit your preferences. |
-| [`typed`](./src/oxlint/typed.ts)       | TypeScript-specific rules that use type information.                                                            |
-| [`viteplus`](./src/oxlint/viteplus.ts) | Vite+ specific rules provided by the Vite+ Oxlint plugin.                                                       |
-
-## Compatibility
-
-Rulesets are developed against the Oxlint version shipped with Vite+ to maintain compatibility with Vite+.
+| Ruleset                                | Description                                          |
+| -------------------------------------- | ---------------------------------------------------- |
+| [`core`](./src/oxlint/core.ts)         | General project rules applicable for most codebases. |
+| [`jsdoc`](./src/oxlint/jsdoc.ts)       | JSDoc documentation rules.                           |
+| [`strict`](./src/oxlint/strict.ts)     | Stricter rules that might not fit all codebases.     |
+| [`typed`](./src/oxlint/typed.ts)       | TypeScript rules that use type information.          |
+| [`viteplus`](./src/oxlint/viteplus.ts) | Vite+ toolchain rules.                               |
 
 ## Philosophy
 
-The rules in [`core`](./src/oxlint/core.ts) are intentionally strict, with a focus on consistency and catching common issues. [`strict`](./src/oxlint/strict.ts) takes this further with more opinionated rules that may not suit every codebase and may require configuration to match your preferences.
+### Target
+
+We target modern, ESM-first JavaScript and TypeScript projects. Read [Move on to ESM-only](https://antfu.me/posts/move-on-to-esm-only) to learn why.
+
+### Rules
 
 Rule selection is subjective. If you disagree with a rule or have a suggestion, feel free to [open an issue](https://github.com/feenko/config/issues/new).
 
