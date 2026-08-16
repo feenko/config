@@ -6,7 +6,7 @@
     {
       "repo": "feenko/config",
       "disableThanks": true,
-      "template": "\n- {pull} {summary}"
+      "template": "- {pull} {summary}"
     }
   ]
 }
