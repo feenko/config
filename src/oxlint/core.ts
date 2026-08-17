@@ -86,7 +86,6 @@ export default defineConfig({
     "oxc/no-accumulating-spread": "deny",
     "oxc/no-barrel-file": "deny",
     "oxc/no-const-enum": "deny",
-    "oxc/no-map-spread": "deny",
     "prefer-arrow-callback": "deny",
     "prefer-const": "deny",
     "prefer-destructuring": "deny",
