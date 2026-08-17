@@ -54,7 +54,6 @@ export default defineConfig({
     "typescript/prefer-optional-chain": ["deny", { requireNullish: true }],
     "typescript/prefer-promise-reject-errors": "deny",
     "typescript/prefer-readonly": "deny",
-    "typescript/prefer-readonly-parameter-types": ["deny", { ignoreInferredTypes: true }],
     "typescript/prefer-reduce-type-parameter": "deny",
     "typescript/prefer-regexp-exec": "deny",
     "typescript/prefer-return-this-type": "deny",
