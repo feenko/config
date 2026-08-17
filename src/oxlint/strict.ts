@@ -1,4 +1,7 @@
+import { STATUS_CODES } from "node:http";
 import { defineConfig } from "oxlint";
+
+const httpStatusCodes = Object.keys(STATUS_CODES).map(Number);
 
 export default defineConfig({
   rules: {
@@ -13,7 +16,7 @@ export default defineConfig({
     "no-magic-numbers": [
       "deny",
       {
-        ignore: [-1, 0, 1, 2],
+        ignore: [-1, 0, 1, 2, ...httpStatusCodes],
         ignoreArrayIndexes: true,
         ignoreClassFieldInitialValues: true,
         ignoreDefaultValues: true,
