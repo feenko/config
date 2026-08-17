@@ -31,6 +31,7 @@ export default defineConfig({
     "import/no-mutable-exports": "deny",
     "import/no-named-default": "deny",
     "import/no-namespace": "deny",
+    "import/no-unassigned-import": ["deny", { allow: ["**/*.css"] }],
     "init-declarations": "deny",
     "logical-assignment-operators": "deny",
     "new-cap": "deny",
