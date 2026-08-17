@@ -16,7 +16,6 @@ export default defineConfig({
     "default-param-last": "deny",
     eqeqeq: "deny",
     "func-name-matching": "deny",
-    "func-style": ["deny", "declaration"],
     "grouped-accessor-pairs": "deny",
     "guard-for-in": "deny",
     "import/consistent-type-specifier-style": "deny",
