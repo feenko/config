@@ -1,0 +1,68 @@
+import { defineConfig } from "oxlint";
+
+export default defineConfig({
+  overrides: [
+    {
+      files: ["**/*.svelte"],
+      rules: {
+        "id-length": "off",
+        "import/consistent-type-specifier-style": "off",
+        "import/no-namespace": "off",
+        "import/no-unassigned-import": "off",
+        "init-declarations": "off",
+        "no-unused-expressions": "off",
+        "no-use-before-define": "off",
+        "unicorn/filename-case": "off",
+        "unicorn/no-null": "off",
+      },
+    },
+    {
+      files: ["**/*.svelte.ts", "**/*.svelte.js"],
+      rules: {
+        "import/consistent-type-specifier-style": "off",
+        "import/exports-last": "off",
+        "import/no-mutable-exports": "off",
+        "no-unused-expressions": "off",
+        "no-use-before-define": "off",
+        "prefer-const": "off",
+        "typescript/explicit-member-accessibility": "off",
+        "typescript/no-non-null-assertion": "off",
+        "unicorn/no-null": "off",
+      },
+    },
+    {
+      files: [
+        "**/hooks.client.{ts,js}",
+        "**/hooks.server.{ts,js}",
+        "**/+page.{ts,js}",
+        "**/+page.server.{ts,js}",
+        "**/+layout.{ts,js}",
+        "**/+layout.server.{ts,js}",
+        "**/+server.{ts,js}",
+        "**/+error.{ts,js}",
+        "**/+fallback.{ts,js}",
+      ],
+      rules: {
+        "import/exports-last": "off",
+        "no-use-before-define": "off",
+        "node/no-process-env": "deny",
+        "require-await": "off",
+        "typescript/await-thenable": "off",
+        "typescript/no-floating-promises": "off",
+        "typescript/no-misused-promises": "off",
+        "typescript/no-unnecessary-condition": "off",
+        "typescript/no-unsafe-argument": "off",
+        "typescript/no-unsafe-assignment": "off",
+        "typescript/no-unsafe-call": "off",
+        "typescript/no-unsafe-enum-comparison": "off",
+        "typescript/no-unsafe-member-access": "off",
+        "typescript/no-unsafe-return": "off",
+        "typescript/no-unsafe-type-assertion": "off",
+        "typescript/no-unsafe-unary-minus": "off",
+        "typescript/require-await": "off",
+        "typescript/strict-boolean-expressions": "off",
+        "unicorn/no-null": "off",
+      },
+    },
+  ],
+});

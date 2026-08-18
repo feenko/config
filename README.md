@@ -47,13 +47,14 @@ export default defineConfig({
 
 ## Rulesets
 
-| Ruleset                                | Description                                          |
-| -------------------------------------- | ---------------------------------------------------- |
-| [`core`](./src/oxlint/core.ts)         | General project rules applicable for most codebases. |
-| [`jsdoc`](./src/oxlint/jsdoc.ts)       | JSDoc documentation rules.                           |
-| [`strict`](./src/oxlint/strict.ts)     | Stricter rules that might not fit all codebases.     |
-| [`typed`](./src/oxlint/typed.ts)       | TypeScript rules that use type information.          |
-| [`viteplus`](./src/oxlint/viteplus.ts) | Vite+ toolchain rules.                               |
+| Ruleset                                  | Description                                          |
+| ---------------------------------------- | ---------------------------------------------------- |
+| [`core`](./src/oxlint/core.ts)           | General project rules applicable for most codebases. |
+| [`jsdoc`](./src/oxlint/jsdoc.ts)         | JSDoc documentation rules.                           |
+| [`strict`](./src/oxlint/strict.ts)       | Stricter rules that might not fit all codebases.     |
+| [`sveltekit`](./src/oxlint/sveltekit.ts) | SvelteKit rules.                                     |
+| [`typed`](./src/oxlint/typed.ts)         | TypeScript rules that use type information.          |
+| [`viteplus`](./src/oxlint/viteplus.ts)   | Vite+ toolchain rules.                               |
 
 ## Philosophy
 
