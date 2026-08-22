@@ -44,7 +44,6 @@ export default defineConfig({
       rules: {
         "import/exports-last": "off",
         "no-use-before-define": "off",
-        "node/no-process-env": "deny",
         "require-await": "off",
         "typescript/await-thenable": "off",
         "typescript/no-floating-promises": "off",
@@ -64,4 +63,7 @@ export default defineConfig({
       },
     },
   ],
+  rules: {
+    "node/no-process-env": "deny",
+  },
 });
