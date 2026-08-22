@@ -21,6 +21,7 @@ export default defineConfig({
     "max-lines-per-function": "deny",
     "max-nested-callbacks": "deny",
     "max-params": "deny",
+    "max-statements": "deny",
     "no-magic-numbers": [
       "deny",
       {
