@@ -5,7 +5,6 @@ export default defineConfig({
     {
       files: ["**/*.svelte"],
       rules: {
-        "id-length": "off",
         "import/consistent-type-specifier-style": "off",
         "import/no-namespace": "off",
         "import/no-unassigned-import": "off",
