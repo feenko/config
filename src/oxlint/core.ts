@@ -54,6 +54,7 @@ export default defineConfig({
     "no-lonely-if": "deny",
     "no-loop-func": "deny",
     "no-multi-assign": "deny",
+    "no-multi-str": "deny",
     "no-new-func": "deny",
     "no-new-wrappers": "deny",
     "no-object-constructor": "deny",
