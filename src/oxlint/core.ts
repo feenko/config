@@ -114,6 +114,7 @@ export default defineConfig({
     radix: "deny",
     "require-await": "deny",
     "require-unicode-regexp": "deny",
+    "sort-imports": "deny",
     "symbol-description": "deny",
     "typescript/adjacent-overload-signatures": "deny",
     "typescript/array-type": "deny",
