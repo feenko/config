@@ -1,5 +1,5 @@
 ---
-"@fnko/config": patch
+"@fnko/config": minor
 ---
 
 Add SvelteKit ruleset
