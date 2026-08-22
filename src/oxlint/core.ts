@@ -177,6 +177,7 @@ export default defineConfig({
     "unicorn/no-magic-array-flat-depth": "deny",
     "unicorn/no-negated-condition": "deny",
     "unicorn/no-negation-in-equality-check": "deny",
+    "unicorn/no-nested-ternary": "deny",
     "unicorn/no-new-buffer": "deny",
     "unicorn/no-null": "deny",
     "unicorn/no-object-as-default-parameter": "deny",
