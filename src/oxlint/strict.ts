@@ -38,5 +38,6 @@ export default defineConfig({
     "typescript/ban-ts-comment": "deny",
     "unicorn/filename-case": ["deny", { case: "kebabCase" }],
     "unicorn/max-nested-calls": "deny",
+    "unicorn/no-array-for-each": "deny",
   },
 });
