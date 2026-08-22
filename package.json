@@ -1,6 +1,6 @@
 {
   "name": "@fnko/config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A sensible, opinionated Oxlint config for modern JavaScript and TypeScript projects.",
   "homepage": "https://github.com/feenko/config#readme",
   "bugs": {
